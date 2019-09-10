@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# This is a calculator script to detect the total net force of an object using mass and acceleration
+# This is a basic calculator script to detect the total net force of an object using mass and acceleration
 # following the equation "F = ma" for Newton's 2nd law in classical mechanics. 
 """
 Created on Mon Sep  2 17:50:37 2019
