@@ -3,7 +3,7 @@
 # This is a basic calculator script to detect the total net force of an object using mass and
 # acceleration following the equation "F = ma" for Newton's 2nd law in classical mechanics. 
 #
-# Version 1.13
+# Version 1.14
 # Script will be updated periodically for better accessibility and usability of calculator.
 """
 Created on Mon Sep  2 17:50:37 2019
@@ -33,7 +33,5 @@ else:
     print("Calculating total net force...\n")
     time.sleep(0.5)
     
-object_force = (accel_value * mass_value)
-ob_j = str(round(object_force, 3))
-
-print("The total net force of the object is " + ob_j + " N.")
+object_force = str(round(accel_value * mass_value, 3))
+print("The total net force of the object is " + object_force + " N.")
