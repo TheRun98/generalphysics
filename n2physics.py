@@ -18,7 +18,7 @@ while True:
         yes_no = input("You have put in a value of deceleration. Continue? ")
         if yes_no == "no" or yes_no == "No":
             print("User selected '" + yes_no + "'. Please try again.\n")
-            sys.exit()
+            continue
         else:
             print("Storing data...")
             break
